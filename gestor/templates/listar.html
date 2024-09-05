@@ -7,9 +7,10 @@
 </head>
 <body>
     {% for tarea in tareas%}
-    {{tarea.titulo}}
-    {{tarea.descripcion}}
+    <h1>{{tarea.titulo}}</h1>
+    <h3>{{tarea.descripcion}}</h3>
     {{tarea.estado}}
     {% endfor %}
+    <a href="crear">crear</a>
 </body>
 </html>
